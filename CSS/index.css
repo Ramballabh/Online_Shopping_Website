@@ -27,7 +27,16 @@
     float: left;
     margin-right: 30px;
     margin-left: 20px;
-
-
+}
+#nav_div_main{
+    
+    float:right;
+    line-height: 70px;
+}
+#nav_div_main > a{
+    margin-right: 20px;
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
 
 }
