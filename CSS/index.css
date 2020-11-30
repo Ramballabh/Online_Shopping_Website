@@ -1,6 +1,7 @@
 *{
     padding : 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #header_main{
     width:100%;
@@ -34,18 +35,27 @@
     float:right;
     line-height: 70px;
 }
-#nav_div_main > a{
-    margin-right: 20px;
-    text-decoration: none;
-    color:white;
-    font-size: 20px;
-    font-weight: bold;
 
+.nav_list li{
+  display: inline-block;
+  margin-right: 20px;
 }
-#nav_div_main > a:hover{
-    transition:.4s;
-    color:black;
-    
+
+.nav_list a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration-style: solid;
+}
+
+.nav_list li a:hover{
+  color: rgb(0, 0, 0);
+  transition: 0.3s;
+  transform: scale(0.9);
+  border-radius: 10px;
+  transition: 0.4s;
+  text-decoration: underline;
 }
 
 
