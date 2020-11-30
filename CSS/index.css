@@ -53,11 +53,26 @@
   color: rgb(0, 0, 0);
   transition: 0.3s;
   transform: scale(0.9);
-  border-radius: 10px;
   transition: 0.4s;
   text-decoration: underline;
 }
 
+.drop-down_list{
+  position: absolute;
+  display: none;
+  width: 180px;
+  transition: .4s;
+  background-color: rgb(137, 141, 137);
+}
+
+.drop-down_list li{
+  line-height:20px;
+  padding-left: 20px;
+}
+
+.nav_list li:hover .drop-down_list{
+  display:block;
+}
 
 #slider > figure img{
     width:100%;
