@@ -18,26 +18,25 @@
             <form>
                 <br>
                 <fieldset>
-                    <legend>Login</legend>
-                    &nbsp;&nbsp;&nbsp;<p> 1.  Login</p>
-                    <button id="change"> Change</button>
-                    &nbsp;&nbsp;&nbsp;<p>XYX       +919998889999</p><br>
-                </fieldset><br><br>
-                <fieldset>
-                    <legend>Delivery</legend>
-                    &nbsp;&nbsp;<p> 2.  Delivery</p><br>
-                    &nbsp;&nbsp;<p> XYX       +919998889999</p><br>
-                    <p>A70 KrishnaPuram Colony Near Temple,Gujrat - 281576</p><br>
-                    <button id="delivery"> Delivery here</button>
-                </fieldset><br><br>
-                <fieldset>
-                    <legend>Order Summary</legend>
-                    &nbsp;&nbsp;&nbsp;<p> 3. Order Summary </p>
-                </fieldset><br><br>
-                <fieldset>
-                    <legend>Payment Option</legend>
-                    &nbsp;&nbsp;&nbsp;<p> 4.  Payment Option</p>
+                    <br><br><legend>Enter Details</legend>
+                    <label for="phone">Phone Number </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="tel" id="phone"><br><br><br>
+                    <label for="address">Address </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="text" id="address"><br><br><br>
+                    <label for="pieces">Number of Pieces </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="text" id="pieces"><br><br><br>
+                    <label for="payoption">Payment Options</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <select id="payoption">
+                        <option>Credit Card</option>
+                        <option>Debit Card</option>
+                        <option>UPI(Phonepe,Gpay,Paytm)</option>
+                        <option>Wallet</option>
+                        <option>Net Banking</option>
+                        <option>Cash</option>
+                        <option>EMI(Easy Installments)</option>
+                    </select><br>
                 </fieldset>
+                <button id="submit">Submit</button>
             </form>
         </div>
     </div>
