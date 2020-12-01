@@ -1,0 +1,60 @@
+*{
+    padding : 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(231, 226, 226);
+}
+#header_main{
+    width:100%;
+    height: 70px;
+    background-image: linear-gradient(to right, rgb(127, 241, 127), rgb(166, 170, 166),rgb(137, 141, 137));
+}
+#logo_name_main{
+    color:white;
+    font-size: 40px;
+    line-height: 70px;
+    display: inline-block;
+    margin-right: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+}
+#logo_image_main{
+    line-height: 70px;
+    border-radius: 50%;
+    width:100px;
+    height: 70px;
+    display: inline-block;
+    float: left;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+.main-content{
+    margin-top: 50px;
+    height: 50vh;
+}
+
+.left-content{
+    width: 800px;
+    background-color: white;
+    margin-left:50px;
+}
+form{
+    padding: 20px;
+}
+#change{
+    color: blue;
+    padding: 10px;
+    float: right;
+    margin: 10px;
+}
+
+#delivery{
+    background-color: coral;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+}
