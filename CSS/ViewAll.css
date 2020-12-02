@@ -11,6 +11,7 @@
     height:300px;
     overflow: hidden;
     margin-bottom: 40px;
+    background-color: rgb(247, 238, 238);
 }
 .cont img{
     width: 25%;
@@ -38,7 +39,7 @@
 .price p{
     font-size: 40px;
     font-weight: bold;
-    margin-top:100px;
+    margin-top:130px;
 
 }
 .cont:hover .de>h2{
