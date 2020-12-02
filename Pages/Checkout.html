@@ -20,11 +20,11 @@
                 <fieldset>
                     <br><br><legend>Enter Details</legend>
                     <label for="phone">Phone Number </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="tel" id="phone"><br><br><br>
+                    <input type="tel" id="phone" onblur="checkPhoneNumber()" required><br><br><br>
                     <label for="address">Address </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="text" id="address"><br><br><br>
+                    <input type="text" id="address" required><br><br><br>
                     <label for="pieces">Number of Pieces </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="text" id="pieces"><br><br><br>
+                    <input type="number" id="pieces" min="0" required><br><br><br>
                     <label for="payoption">Payment Options</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <select id="payoption">
                         <option>Credit Card</option>
@@ -36,9 +36,35 @@
                         <option>EMI(Easy Installments)</option>
                     </select><br>
                 </fieldset>
-                <button id="submit">Place Order</button>
+                <button id="submit" onclick="checkPhoneNumber()">Place Order</button>
             </form>
         </div>
     </div>
+    <script>
+        var c = 0;
+        function checkPhoneNumber(){
+            var btn = document.getElementById("submit");
+            var phone = document.getElementById("phone");
+            var phoneValue = phone.value.trim();
+            var regexphone = /^[6789]{1}[0-9]{9}$/;
+            if(regexphone.test(phoneValue)){
+                c=1;
+            }
+            else{
+                c=0;
+                alert("Please enter the valid phone Number");
+            }
+        }
+
+        window.setInterval(function(){
+            var btn = document.getElementById("submit");
+            if(c==1){
+                btn.disabled  = false;
+            }
+            else{
+                btn.disabled = true;
+            }
+        },1000);
+    </script>
 </body>
 </html>
