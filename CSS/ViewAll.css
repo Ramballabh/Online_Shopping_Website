@@ -1,0 +1,46 @@
+*{
+    padding: 0%;
+    margin:0;
+}
+#margin{
+    width:100%;
+    height:70px;
+}
+.cont{
+    width:100%;
+    height:300px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.cont img{
+    width: 25%;
+    height:300px;
+    margin-right: 40px;
+    display: inline-block;
+    float: left;
+}
+.de{
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+.de h2{
+    margin-top:50px;
+    margin-bottom: 30px;
+}
+.de p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.price{
+    height: 300px;
+}
+.price p{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top:100px;
+
+}
+.cont:hover .de>h2{
+    color:blue;
+}
