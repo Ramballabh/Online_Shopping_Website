@@ -199,6 +199,9 @@
   color:blue;
   transition: .2s;
 }
+.pval{
+  color:green;
+}
 
 #footer {
     width: 100%;
