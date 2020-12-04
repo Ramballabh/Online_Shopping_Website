@@ -6,7 +6,9 @@
 }
 
 body{
-    background-color: darkslateblue;
+    background: url(../images/back2.jpg);
+    background-repeat: none;
+    background-size: cover;
     font-family: 'Open Sans', sans-serif;
     height: 100vh;
 }
@@ -37,18 +39,19 @@ body{
 }
 
 .container{
-    background-color: #fff;
+    background-color: none;
     width: 400px;
     border-radius: 5px;
     overflow: hidden;
-    margin: 200px auto;
+    margin: 100px auto;
 }
 
 .header{
-    background-color: #f7f7f7;
+    background-color: none;
 }
 .header h2{
     padding: 20px;
+    font-weight: bold;
 }
 
 .form{
@@ -64,6 +67,7 @@ body{
 .form-control label{
     display: block;
     margin-bottom: 5px;
+    font-weight: bold;
 }
 
 .form-control input{
@@ -72,7 +76,9 @@ body{
     padding: 10px;
     border-radius: 5px;
     outline: none;
-    border: 2px solid #f0f0f0;
+    border: none;
+    background: none;
+    border-bottom: 2px solid black;
 }
 
 .form-control i{
