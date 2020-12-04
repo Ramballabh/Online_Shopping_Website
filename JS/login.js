@@ -30,3 +30,15 @@ function checkInput(){
         showSuccess(password1);
     }
 }
+
+function showError(input,msg){
+    const formcontrol = input.parentNode;
+    formcontrol.className = 'form-control error';
+    const small = formcontrol.querySelector('small');
+    small.innerHTML = msg;
+}
+
+function showSuccess(input){
+    const formcontrol = input.parentNode;
+    formcontrol.className = 'form-control success';
+}
