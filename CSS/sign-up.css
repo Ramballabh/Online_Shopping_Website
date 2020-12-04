@@ -14,6 +14,31 @@ body{
     align-items: center;
 }
 
+#header_main{
+    width:100%;
+    height: 70px;
+    background-image: linear-gradient(to right, rgb(127, 241, 127), rgb(166, 170, 166),rgb(137, 141, 137));
+}
+#logo_name_main{
+    color:white;
+    font-size: 40px;
+    line-height: 70px;
+    display: inline-block;
+    margin-right: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+}
+#logo_image_main{
+    line-height: 70px;
+    border-radius: 50%;
+    width:100px;
+    height: 70px;
+    display: inline-block;
+    float: left;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
 .container{
     background-color: #fff;
     width: 400px;
