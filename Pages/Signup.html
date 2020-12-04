@@ -1,60 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ALogin</title>
-    <link rel="stylesheet" href="../CSS/Logiin.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script>
-       
-        function check(){
-            var nameV = document.getElementById("name").value;
-            if( nameV.length == 0){
-                alert("Please Enter the Valid Username");
-                return false;
-            }
-            return true;
-        }
-        function checkP(){
-            var nameP = document.getElementById("passL").value;
-            if( nameP.length == 0){
-                alert("Please Enter the Valid Password");
-                return false;
-            }
-            return true;
-        }
-        function EmailChecker(){
-              var inputE= document.getElementById("mail").value;
-              var emailSyntax= /^.+@gmail.com$/;
-              if(emailSyntax.test(inputE)){
-              }
-              else{
-                alert("Please Enter valid Email");
-              }
-            }
-    </script>
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="../CSS/sign-up.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 <body>
-    <div id="L">
-        <h1>Sign up</h1>
+    <div class="container">
+        <div class="header">
+            <h2>Create Account</h2>
+        </div>
+        <form class="form" id="form">
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter username">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error Msg</small>
+            </div>
+            <div class="form-control">
+                <label for="email">Email ID</label>
+                <input type="text" id="email" placeholder="Enter email">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error Msg</small>
+            </div>
+            <div class="form-control">
+                <label for="password1">Password</label>
+                <input type="password" id="password1" placeholder="Enter password">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error Msg</small>
+            </div>
+            <div class="form-control">
+                <label for="password2">Re-Enter Password</label>
+                <input type="password" id="password2" placeholder="Enter password">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error Msg</small>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
     </div>
-    <form id="Login" method="POST">
-        <div id="username">
-            <i class="fa fa-user" aria-hidden="true"></i>
-            <input type="text" placeholder="Username" id="name" name="admin_name" onblur="check()" required>
-        </div>
-        <div id = "Email">
-            <i class="fa fa-envelope" aria-hidden="true"></i>
-            <input type="email" placeholder="Email" id="mail" name="admin_name" onblur="EmailChecker()" required>
-        </div>
-        <div id="pass">
-            <i class="fa fa-lock" aria-hidden="true"></i>
-            <input type="password" placeholder="Password" id="passL" name="password" onblur ="checkp()" required><br><br>
-        </div>
-        <button type="submit" id="button" name="sbt-btn">SIGN UP</button>
-
-    </form>
-       
 </body>
 </html>
