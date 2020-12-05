@@ -72,3 +72,7 @@ input{
 select{
     height: 30px;
 }
+#pieces{
+    padding-left: 20px;
+    padding-right: 20px;
+}
