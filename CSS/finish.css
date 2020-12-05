@@ -1,9 +1,36 @@
 #done{
     position: absolute;
-    top:200px;
+    top:100px;
     left:650px;
 }
 #icon{
     font-size: 200px;
     color:green;
+}
+h1{
+    position: absolute;
+    top:280px;
+    left:550px;
+    font-size:70px;
+    color:green;
+}
+a{
+    position: absolute;
+    background-color:blue;
+    text-decoration: none;
+    color:white;
+    padding:20px;
+    font-size:25px;
+    width:200px;
+    height: 20px;
+    top:450px;
+    left:630px;
+    border-radius:5px;
+    text-align:center;
+    line-height: 20px;
+
+}
+a:hover{
+    color:rgb(201, 218, 201);
+    background-color: rgb(233, 111, 10);
 }
