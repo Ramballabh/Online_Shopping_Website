@@ -251,6 +251,9 @@
     margin-bottom: 25px;
     font-size: 28px;
   }
+  #f_contact i:hover{
+    color: blue;
+  }
   
   .categories h3 {
     color: white;
