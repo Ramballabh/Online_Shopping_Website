@@ -35,12 +35,13 @@
     color: green;
     height: 3px;
 }
-#right>h2:hover{
-    color: blue;
+#right:hover #name{
+    color:blue;
 }
 #right #price{
     padding: 10px;
     font-size: 40px;
+    color: green;
 }
 #right>h1{
     padding: 5px;
@@ -51,17 +52,21 @@
     margin-bottom: 10px;
     padding: 10px;
 }
-#btn{
-    width: 500px;
-    height: 600px;
+#buy{
+    text-decoration: none;
+    color: rgb(248, 246, 246);
+    background-color: rgb(74, 19, 228);
+    padding:20px;
+    font-size:25px;
+    height:25px;
+    width:300px;
+    position: absolute;
+    top:650px;
+    left:100px;
     text-align: center;
+    border-radius: 5px;
 }
-#btn #buy{
-    font-size: 40px;
-    margin-left: 80px;
-    padding: 10px;
-    width: 450px;
-}
-#btn:hover{
-    color: orange;
+#buy:hover{
+    color:black;
+    background-color: rgb(35, 219, 11);
 }
