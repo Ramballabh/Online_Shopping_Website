@@ -243,11 +243,8 @@
   }
   #f_contact {
     float: left;
-    width: 300px;
-  
     height: 150px;
     margin: 40px;
-    margin-left: 180px;
     padding: 10px;
   }
   #f_contact h3,
@@ -286,10 +283,8 @@
   
   #follow-us {
     float: left;
-    width: 140px;
     height: 150px;
     margin: 40px;
-    margin-left: 130px;
     padding: 10px;
   }
   
