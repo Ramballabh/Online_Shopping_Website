@@ -9,7 +9,7 @@
 #header_main{
     width:100%;
     height: 70px;
-    background-image: linear-gradient(to right, rgb(6, 235, 6), rgb(112, 221, 112),rgb(137, 141, 137));
+    background-image: linear-gradient(to right, rgb(67, 6, 235), rgb(105, 82, 240),rgb(167, 151, 238));
     position: fixed;
     margin-bottom: 100px;
     z-index: 2;
@@ -35,7 +35,7 @@
 }
 #quote{
   position: absolute;
-  color: rgb(39, 9, 207);
+  color: rgb(39, 233, 14);
   display: inline-block;
   top:45px;
   left:200px;
@@ -72,7 +72,7 @@
   display: none;
   width: 180px;
   transition: .4s;
-  background-color: rgb(133, 194, 136);
+  background-color: rgb(137, 119, 219);
 }
 
 .drop-down_list li{
@@ -135,12 +135,13 @@
 .head_sub{
     width:100%;
     height: 60px;
-    background-color: rgb(157, 255, 157);
+    background-color: rgb(137, 119, 219);
 }
 .head_sub h2{
     display: inline-block;
     line-height: 60px;
     margin-left:20px;
+    color: white;
 
 }
 .head_sub a{
@@ -150,6 +151,7 @@
     float:right;
     margin-right: 20px;
     line-height: 60px;
+    color: white;
 }
 .head_sub a:hover{
   color:rgb(34, 1, 87);
@@ -157,7 +159,7 @@
 .prod-div{
     width:100%;
     height:400px;
-    background-color: rgb(182, 241, 182);
+    background-color: rgb(176, 160, 247);
     
     
 }
@@ -201,6 +203,7 @@
 }
 .pval{
   color:green;
+  font-weight: bold;
 }
 
 #footer {
