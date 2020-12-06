@@ -159,7 +159,7 @@
 .prod-div{
     width:100%;
     height:26vw;
-    
+
     background-color: rgb(176, 160, 247);
     
     
@@ -216,11 +216,11 @@
     overflow: hidden;
   }
   #footer p{
-    width: 500px;
+    width: 35vw;
   }
   
   #about {
-    width: 400px;
+    width: 35vw;
     padding: 10px;
     padding-left: 20px;
     text-align: justify;
