@@ -569,11 +569,13 @@ body{
 }
 
 #about {
-  width: 100px;
-  padding: 5px;
+  width: 140px;
   text-align: justify;
   float: left;
-  border: 1px solid black;
+}
+#about p{
+  font-size: 8px;
+  width: 150px;
 }
 
 #about h3 {
@@ -582,15 +584,14 @@ body{
 }
 
 #f_contact {
-  float: left;
-  width: 60px;
-  height: 150px;
-  margin-left: 10px;
+  float: right;
+  width: 100px;
+  height: 200px;
 }
+
 #f_contact h3,
 #f_contact i {
   color: white;
-  padding-bottom: 5px;
   font-size: small;
 }
 
@@ -600,38 +601,6 @@ body{
 #f_contact p:hover {
   color: white;
   transform: scale(1.5);
-}
-
-#follow-us {
-  float: left;
-  width: 600px;
-  height: 150px;
-  margin-left: 5px;
-}
-
-#follow-us h3 {
-  color: white;
-  font-size: small;
-}
-
-#follow-us i {
-  color: white;
-  font-size: small;
-}
-#follow-us #i:hover {
-  color: rgb(255, 47, 193);
-  transform: scale(1.5);
-  transition: 0.3s;
-}
-#follow-us #f:hover {
-  color: rgb(19, 19, 212);
-  transform: scale(1.5);
-  transition: 0.3s;
-}
-#follow-us #y:hover {
-  color: red;
-  transform: scale(1.5);
-  transition: 0.3s;
 }
 
 }
