@@ -41,7 +41,7 @@ body{
 }
 
 .left-content{
-    width: 120vh;
+    width: 400px;
     background-color: white;
     margin:50px auto;
     display: flex;
@@ -61,7 +61,7 @@ fieldset{
     color: white;
     text-transform: uppercase;
     margin: 10px ;
-    margin-left: 250px;
+    margin-left: 150px;
 }
 
 input{
@@ -75,4 +75,7 @@ select{
 #pieces{
     padding-left: 20px;
     padding-right: 20px;
+}
+@media(max-width: 411px){
+
 }
