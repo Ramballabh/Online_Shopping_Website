@@ -50,21 +50,21 @@
 @media(max-width: 412px){
     .cont{
         width:300px;
-        height:250px;
+        height:200px;
         overflow: hidden;
         margin-bottom: 40px;
         background-color: white;
     }
     .cont img{
         width: 150px;
-        height:250px;
+        height:200px;
         margin-right: 40px;
         display: inline-block;
         float: left;
     }
     .de{
-        width: 100px;
-        height: 250px;
+        width: 50px;
+        height: 200px;
         float: left;
     }
     .de h2{
@@ -79,7 +79,7 @@
     }
     .price{
         width:50px;
-        height: 250px;
+        height: 200px;
     }
     .price p{
         font-size: 10px;
