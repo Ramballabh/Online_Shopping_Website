@@ -54,6 +54,7 @@
         overflow: hidden;
         margin-bottom: 40px;
         background-color: white;
+        position: relative;
     }
     .cont img{
         width: 150px;
@@ -61,11 +62,12 @@
         margin-right: 40px;
         display: inline-block;
         float: left;
+        
     }
     .de{
-        width: 50px;
-        height: 200px;
-        float: left;
+        width: 100px;
+        height: 150px;
+        
     }
     .de h2{
         margin-top:30px;
@@ -75,14 +77,18 @@
     }
     .de p{
         font-size: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     .price{
-        width:50px;
-        height: 200px;
+        width:100px;
+        height: 50px;
+        position: absolute;
+        top:120px;
+        left:200px;
+
     }
     .price p{
-        font-size: 10px;
+        font-size: 15px;
         font-weight: bold;
         margin-top:50px;
         color:green;
