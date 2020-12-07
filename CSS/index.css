@@ -340,7 +340,7 @@ body{
 
   @media screen and (max-width: 411px) {
     body{
-      min-width: 900px;
+      min-width: 400px;
       height: 200vh;
     }
     #header_main{
@@ -398,7 +398,7 @@ body{
       padding: 80px 0px;
       line-height: normal;
       transition: 0.7s;
-      height: 420px;
+      height: 220px;
     }
 
     .nav_list li{
@@ -425,14 +425,14 @@ body{
       display: none;
       width: 100%;
       text-align: center;
-      padding: 80px 0px;
+      padding: 20px 0px 10px 0px;
       line-height: normal;
       transition: .4s;
       background-color: rgb(137, 119, 219);
     }
     
     .drop-down_list li{
-      line-height:60px;
+      line-height:40px;
       padding-left: 20px;
     }
     
@@ -443,7 +443,7 @@ body{
     
     #slider > figure img{
         width:100%;
-        height:500px;
+        height:300px;
         margin-top:70px;
     }
     #slider{
@@ -515,14 +515,14 @@ body{
   }
   .prod-div{
       width:100%;
-      height:230vw;
+      height:460vw;
       background-color: rgb(176, 160, 247);
   }
 
   .block{
       background-color:white;
       height:113vw;
-      width:45%;
+      width:90%;
       margin-left: 4.9vw;
       margin-right: 4.6vw;
       display: inline-block;
@@ -560,97 +560,78 @@ body{
   font-weight: bold;
 }
 
+
 #footer {
-    width: 100%;
-    height: 100vw;
-    background-color: darkslategray;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    
-  }
-  #footer p{
-    width: 100vw;
-    font-size: 1.3vw;
-  }
-  
-  #about {
-    width: 100vw;
-    padding: 10px;
-    padding-left: 20px;
-    text-align: justify;
-    float: left;
-    margin-top: 40px;
-    margin-left: 30px;
-  }
+  width: 400px;
+  height: 250px;
+  background-color: darkslategray;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
 
-  #about p{
-    font-size: large;
-  }
-  
-  #about h3 {
-    color: white;
-    font-size: 28px;
-  }
-  
-  #f_contact {
-    float: right;
-    height: 150px;
-    margin-top: 40px;
-    padding: 10px;
-    margin-right: 10vw;
-    margin-left: 10vw;
-  }
-  #f_contact h3,
-  #f_contact i {
-    color: white;
-    margin-bottom: 25px;
-    font-size: 28px;
-  }
-  #f_contact i:hover{
-    color: blue;
-  }
-  
+#about {
+  width: 100px;
+  padding: 5px;
+  text-align: justify;
+  float: left;
+  border: 1px solid black;
+}
 
-  #f_contact p {
-    display: inline;
-  }
-  #f_contact p:hover {
-    color: white;
-    transform: scale(1.5);
-  }
-  
+#about h3 {
+  color: white;
+  font-size: small;
+}
 
-  #follow-us {
-    float: right;
-    height: 150px;
-    margin-top: 40px;
-    padding: 10px;
-  }
-  
-  #follow-us h3 {
-    color: white;
-    font-size: 28px;
-  }
-  
-  #follow-us i {
-    color: white;
-    font-size: 30px;
-    padding: 10px;
-  }
-  #follow-us #i:hover {
-    color: rgb(255, 47, 193);
-    transform: scale(1.5);
-    transition: 0.3s;
-  }
-  #follow-us #f:hover {
-    color: rgb(19, 19, 212);
-    transform: scale(1.5);
-    transition: 0.3s;
-  }
-  #follow-us #y:hover {
-    color: red;
-    transform: scale(1.5);
-    transition: 0.3s;
-  }
+#f_contact {
+  float: left;
+  width: 60px;
+  height: 150px;
+  margin-left: 10px;
+}
+#f_contact h3,
+#f_contact i {
+  color: white;
+  padding-bottom: 5px;
+  font-size: small;
+}
 
+#f_contact p {
+  display: inline;
+}
+#f_contact p:hover {
+  color: white;
+  transform: scale(1.5);
+}
 
-  }
+#follow-us {
+  float: left;
+  width: 600px;
+  height: 150px;
+  margin-left: 5px;
+}
+
+#follow-us h3 {
+  color: white;
+  font-size: small;
+}
+
+#follow-us i {
+  color: white;
+  font-size: small;
+}
+#follow-us #i:hover {
+  color: rgb(255, 47, 193);
+  transform: scale(1.5);
+  transition: 0.3s;
+}
+#follow-us #f:hover {
+  color: rgb(19, 19, 212);
+  transform: scale(1.5);
+  transition: 0.3s;
+}
+#follow-us #y:hover {
+  color: red;
+  transform: scale(1.5);
+  transition: 0.3s;
+}
+
+}
