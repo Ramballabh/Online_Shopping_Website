@@ -8,26 +8,33 @@
     <link rel="stylesheet" href="../CSS/ViewAll.css">
 </head>
 <body>
-    <header id = "header_main">
-        <div id ="logo_div_main">
-            <img src="../images/Logo.png" alt = "logo" id ="logo_image_main">
-            <p id ="logo_name_main">Gokart</p>
+    <header id="header_main">
+        <div id="logo_div_main">
+            <img src="images/Logo.png" alt="logo" id="logo_image_main">
+            <p id="logo_name_main">Gokart</p>
             <p id="quote"><sub>Get Your Phone Now!</sub></p>
-            
+
         </div>
-        <div id ="nav_div_main">
-            <ul class="nav_list"> 
-                <li><a href ="../index.html" id = "Login_main">Home</a></li>
-                <li><a href = "#">Shop By Category</a>
+        <div id="nav_div_main">
+            <input type="checkbox" id="chk">
+            <label for="chk" class="show-btn">
+                <i class="fa fa-bars"></i>
+            </label>
+            <ul class="nav_list">
+                <li><a href="#">Shop By Category</a>
                     <ul class="drop-down_list">
-                        <li><a href = "viewAllkey1.html">Keypad</a></li>
-                        <li><a href = "viewAllB.html">Budget</a></li>
-                        <li><a href = "viewAllM.html">Mid-range</a></li>
-                        <li><a href = "#">Flgship</a></li>
+                        <li><a href="Pages/viewAllkey1.html">Keypad</a></li>
+                        <li><a href="Pages/viewAllB.html">Budget</a></li>
+                        <li><a href="Pages/viewAllM.html">Mid-range</a></li>
+                        <li><a href="Pages/viewAllF.html">Flgship</a></li>
                     </ul>
                 </li>
-                <li><a href ="login.html" id = "Login_main">Log in</a></li>
-                <li><a href = "Signup.html" id = "Signin_main">Sign up</a></li>
+                <li><a href="Pages/login.html" id="Login_main">Log in</a></li>
+                <li><a href="Pages/Signup.html" id="Signin_main">Sign up</a></li>
+                <li><a href="#footer" id="About_main">About Us</a></li>
+                <label for="chk" class="hide-btn">
+                    <i class="fa fa-times"></i>
+                </label>
             </ul>
         </div>
     </header>
