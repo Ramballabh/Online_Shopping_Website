@@ -78,7 +78,7 @@ select{
 }
 @media(max-width: 411px){
     .left-content{
-        width:350px;
+        width:380px;
     }
     #submit{
         margin-left:150px;
